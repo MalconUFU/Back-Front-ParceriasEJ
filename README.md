@@ -1,3 +1,3 @@
 # Front-ParceriasEJ
 
-Repositório de Front-End da atividade da Diretoria de Projetos - ParceriasEJ
+Repositório de Back-End e Front-End da atividade da Diretoria de Projetos - ParceriasEJ
