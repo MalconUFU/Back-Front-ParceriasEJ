@@ -1,0 +1,20 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "backend para o projeto ascii parcerias EJ",
+  "main": "index.js",
+  "type": "module",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalconUFU/Back-Front-ParceriasEJ.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalconUFU/Back-Front-ParceriasEJ/issues"
+  },
+  "homepage": "https://github.com/MalconUFU/Back-Front-ParceriasEJ#readme"
+}
