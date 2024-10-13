@@ -36,7 +36,7 @@ Este projeto tem como objetivo fornecer uma plataforma para gerenciar e organiza
 ### Backend (`ascii-parcerias-backend`)
 
 O backend está estruturado da seguinte forma:
-
+`
 Back-End/
 ├── controller/
 ├── model/
@@ -50,12 +50,12 @@ Back-End/
 ├── view/
 │   └── a.txt
 └── instruções/
-
+` 
 
 ### Frontend (`ascii-parcerias-frontend`)
 
 O frontend está estruturado da seguinte forma:
-
+`
 Front-End/
 ├── controller/
 ├── model/
@@ -84,7 +84,7 @@ Front-End/
 │   └── vite.config.js
 └── view/
     └── instruções/
-
+` 
 
 ## Instalação e Configuração
 
