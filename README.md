@@ -1,7 +1,8 @@
 
 # ASCII Parcerias EJ
 
-Este repositório é dividido em duas partes: `ascii-parcerias-backend` e `ascii-parcerias-frontend`, que correspondem ao backend e frontend do projeto ASCII Parcerias EJ. O projeto visa gerenciar parcerias estratégicas da empresa júnior ASCII, facilitando o controle de dados, benefícios e contratos relacionados às parcerias.
+Este repositório é dividido em duas partes: `Backend` e `Frontend`, que correspondem ao backend e frontend do projeto ASCII Parcerias EJ. O projeto visa gerenciar parcerias estratégicas da empresa júnior ASCII, facilitando o controle de dados, benefícios e contratos relacionados às parcerias.
+Lembrando sempre de verificar a documentação de cada tecnologia para consegui utilizar, não esquecer de adicionar as variaveis de ambiente e instalar na sua maquina.
 
 ## Índice
 
@@ -87,7 +88,12 @@ Front-End/
     └── instruções/
 ```
 ## Instalação e Configuração
-
+- Clone o repositório e acesse a pasta `Back-Front-ParceriasEJ`:
+        
+    
+    `git clone https://github.com/MalconUFU/Back-Front-ParceriasEJ.git
+    cd Back-Front-ParceriasEJ`
+    
 ### Pré-requisitos
 
 -   Node.js e npm
@@ -97,42 +103,32 @@ Front-End/
 -   Liquibase
 
 ### Backend
-
-1.  Clone o repositório e acesse a pasta `ascii-parcerias-backend`:
-        
     
-    `git clone https://github.com/seu-usuario/nome-repositorio.git
-    cd nome-repositorio` 
-    
-2.  Instale as dependências:
+1.  Instale as dependências:
             
     `npm install` 
     
-3.  Configure o banco de dados e as variáveis de ambiente no arquivo `.env` (baseie-se em `.env.example`).
+2.  Configure o banco de dados e as variáveis de ambiente no arquivo `.env` (baseie-se em `.env.example`).
+
 4.  Execute as migrações do banco de dados:
-            
-    `liquibase update` 
+     `liquibase init start-h2`
+    `liquibase update`
     
-5.  Inicie o servidor:
+6.  Inicie o servidor React:
     `npm start`
     
-6. Inicie o servidor node usando:
+7. Inicie o servidor node usando:
    `node index.js ` 
 
 ### Frontend
-
-1.  Clone o repositório e acesse a pasta `ascii-parcerias-frontend`:
-            
-    `git clone https://github.com/seu-usuario/nome-repositorio.git
-    cd ascii-parcerias-frontend` 
     
-2.  Instale as dependências:
+1.  Instale as dependências:
             
     `npm install` 
     
-3.  Configure o Tailwind CSS:
+2.  Configure o Tailwind CSS:
     -   Edite `tailwind.config.js` e adicione as configurações conforme a documentação do Tailwind.
-4.  Inicie o servidor de desenvolvimento:
+3.  Inicie o servidor de desenvolvimento:
         
     `npm start` 
     
