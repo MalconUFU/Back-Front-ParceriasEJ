@@ -1,7 +1,31 @@
-Ferramentas necessárias:
+Ferramentas necessárias: NodeJs, LiquiBase e LiquiBase
 
 https://nodejs.org/en/download/prebuilt-installer
 
 Tendo o Node.Js instalado, a instalação do Express se faz no prompt com o comando:
 
-$ npm install express
+$ npm install express[
+
+Sobre o LiquiBase:
+
+Instalar Liquibase no Windows
+Você pode instalar o Liquibase em sua máquina Windows seguindo os passos desta página.
+
+O Java é necessário para usar o Liquibase. Se você utilizar o Instalador do Liquibase, o Java será incluído automaticamente.
+
+Automático
+Clique em Install Liquibase (Instalar Liquibase).
+
+Se o Instalador do Liquibase não iniciar automaticamente após o download, localize o arquivo do Instalador no diretório de Downloads e execute-o.
+
+Se a segurança do Windows impedir o Instalador do Liquibase de rodar, clique em Run Anyway (Executar Mesmo Assim). Dependendo da sua versão do Windows, pode ser necessário clicar primeiro em More info (Mais informações).
+
+Manual
+
+Instale o Java.
+Clique em Download Liquibase para baixar os arquivos de instalação do Liquibase.
+Extraia o conteúdo para um diretório local.
+(Opcional) Adicione o diretório de instalação do Liquibase ao PATH do sistema.
+Em uma linha de comando ou terminal, digite liquibase --version para verificar se o Liquibase foi instalado com sucesso.
+
+
