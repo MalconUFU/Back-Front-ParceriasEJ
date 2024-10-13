@@ -11,7 +11,6 @@ Este repositório é dividido em duas partes: `ascii-parcerias-backend` e `ascii
 -   [Instalação e Configuração](#instala%C3%A7%C3%A3o-e-configura%C3%A7%C3%A3o)
 -   [Como Contribuir](#como-contribuir)
 -   [Licença](#licen%C3%A7a)
--   [Contato](#contato)
 
 ## Visão Geral
 
@@ -24,7 +23,6 @@ Este projeto tem como objetivo fornecer uma plataforma para gerenciar e organiza
 -   **Node.js**: Ambiente de execução JavaScript.
 -   **Express**: Framework web para Node.js.
 -   **Liquibase**: Ferramenta para versionamento e migração de banco de dados.
--   **MySQL**: Banco de dados relacional.
 
 ### Frontend
 
@@ -36,7 +34,9 @@ Este projeto tem como objetivo fornecer uma plataforma para gerenciar e organiza
 ### Backend (`ascii-parcerias-backend`)
 
 O backend está estruturado da seguinte forma:
-`Back-End/
+
+```
+Back-End/
 ├── controller/
 ├── model/
 │   ├── example-changelog.sql
@@ -48,13 +48,15 @@ O backend está estruturado da seguinte forma:
 │   └── liquibase.properties
 ├── view/
 │   └── a.txt
-└── instruções/` 
+└── instruções/
+```
+
 
 ### Frontend (`ascii-parcerias-frontend`)
 
 O frontend está estruturado da seguinte forma:
 
-
+```
 Front-End/
 ├── controller/
 ├── model/
@@ -83,14 +85,15 @@ Front-End/
 │   └── vite.config.js
 └── view/
     └── instruções/
-
+```
 ## Instalação e Configuração
 
 ### Pré-requisitos
 
 -   Node.js e npm
 -   Express
--   MySQL
+-   React
+-   Tailwind
 -   Liquibase
 
 ### Backend
@@ -98,8 +101,8 @@ Front-End/
 1.  Clone o repositório e acesse a pasta `ascii-parcerias-backend`:
         
     
-    `git clone https://github.com/seu-usuario/ascii-parcerias-backend.git
-    cd ascii-parcerias-backend` 
+    `git clone https://github.com/seu-usuario/nome-repositorio.git
+    cd nome-repositorio` 
     
 2.  Instale as dependências:
             
@@ -111,15 +114,16 @@ Front-End/
     `liquibase update` 
     
 5.  Inicie o servidor:
-            
-    `npm start` 
+    `npm start`
     
+6. Inicie o servidor node usando:
+   `node index.js ` 
 
 ### Frontend
 
 1.  Clone o repositório e acesse a pasta `ascii-parcerias-frontend`:
             
-    `git clone https://github.com/seu-usuario/ascii-parcerias-frontend.git
+    `git clone https://github.com/seu-usuario/nome-repositorio.git
     cd ascii-parcerias-frontend` 
     
 2.  Instale as dependências:
