@@ -1,0 +1,9 @@
+Ferramentas necessárias: npm, react, vite, tailwind
+
+cd react-parceriasej
+npm run dev
+pra iniciar o react com vite
+
+cd react-parceriasej
+npx tailwindcss -i ./src/index.css -o ./src/output.css --watch
+para iniciar o tailwind
